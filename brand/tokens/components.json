@@ -1,0 +1,88 @@
+{
+  "button": {
+    "primary": {
+      "bg": {
+        "$type": "color",
+        "$value": "{color.action.primary}"
+      },
+      "bg-hover": {
+        "$type": "color",
+        "$value": "{color.action.primary-hover}"
+      },
+      "fg": {
+        "$type": "color",
+        "$value": "{color.text.on-action}"
+      }
+    },
+    "radius": {
+      "$type": "dimension",
+      "$value": "{radius.pill}"
+    },
+    "height": {
+      "$type": "dimension",
+      "$value": "48px"
+    },
+    "press-scale": {
+      "$type": "number",
+      "$value": 0.97
+    },
+    "press-duration": {
+      "$type": "duration",
+      "$value": "{duration.press}"
+    }
+  },
+  "card": {
+    "bg": {
+      "$type": "color",
+      "$value": "{color.surface.card}"
+    },
+    "border": {
+      "$type": "color",
+      "$value": "{color.border.default}"
+    },
+    "radius": {
+      "$type": "dimension",
+      "$value": "{radius.lg}"
+    },
+    "padding": {
+      "$type": "dimension",
+      "$value": "{space.6}"
+    }
+  },
+  "input": {
+    "bg": {
+      "$type": "color",
+      "$value": "{color.surface.page}"
+    },
+    "border": {
+      "$type": "color",
+      "$value": "{color.border.default}"
+    },
+    "border-focus": {
+      "$type": "color",
+      "$value": "{color.border.focus}"
+    },
+    "radius": {
+      "$type": "dimension",
+      "$value": "{radius.md}"
+    },
+    "height": {
+      "$type": "dimension",
+      "$value": "50px"
+    }
+  },
+  "focus": {
+    "ring": {
+      "$type": "color",
+      "$value": "{color.border.focus}"
+    },
+    "width": {
+      "$type": "dimension",
+      "$value": "3px"
+    },
+    "offset": {
+      "$type": "dimension",
+      "$value": "3px"
+    }
+  }
+}
